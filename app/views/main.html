@@ -1,0 +1,17 @@
+<div class="jumbotron" ng-controller="MainCtrl">
+  <h1>MARIO UPLOADS IMAGES</h1>
+  <p class="lead">
+    <img src="images/8bitmario.png" alt="I'm Yeoman"><br>
+    Please press Upload for upload a Image.
+  </p>
+  <input style="margin-left: 150px; font: inherit; " type="file" id="myFile" accept=".image/jpeg, image/png, image/jpg" value="Select Image">
+
+  <button ng-click="upload()">Upload His Image</button>
+
+  <div id="preview">
+    <img id="img" style="width: 200px; height: 200px;">
+  </div>
+
+  <button ng-click="send()">Send Image</button>
+
+</div>
